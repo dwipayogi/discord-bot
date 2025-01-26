@@ -13,7 +13,7 @@ This bot was created with the aim of reminding college assignments by sending a 
 ## Tech
 
 This bot uses a number of open source projects to work properly:
-- [JavaScript](https://developer.mozilla.org/en-US/docs/Web/javascript) - main programming language to creaate the script
+- [TypeScript](https://www.typescriptlang.org/) - main programming language to creaate the script
 - [Node.js](http://nodejs.org) - evented I/O for the backend
 - [Express](http://expressjs.com) - fast node.js network app framework
 - [MongoDB](https://www.mongodb.com/) - The world's most popular document database to save all task
@@ -27,5 +27,5 @@ Add your environment variables, install the dependencies and run
 
 ```sh
 npm i
-node index
+npm run dev
 ```
